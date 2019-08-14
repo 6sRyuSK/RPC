@@ -2,7 +2,7 @@
 
 const net = require('net');
 const EventEmitter = require('events');
-const fetch = require('node-fetch');
+const fetch = require('electron-fetch');
 const { uuid } = require('../util');
 
 const OPCodes = {
